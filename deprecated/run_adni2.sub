@@ -1,0 +1,31 @@
+Executable = run_adni2.sh
+
+Initialdir = /home/hhao9/mlhc_sub
+
+# Transfer necessary files to the compute node
+transfer_input_files = run_adni2.py, run_adni2.sh, env.tar.gz, ADNIMERGE.csv, utils_adni.py, run.py, config.yaml, adni.csv, adni2.csv
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = adni2_logs, adni2_results
+
+Log = adni2_logs/eval.log
+Error = adni2_logs/eval.err
+Output = adni2_logs/eval.out
+
+request_cpus = 2
+request_memory = 4GB
+request_disk = 8GB
+requirements = (OpSysMajorVer >= 8) && (TARGET.Arch == "X86_64")
+
+# Prefer highest available OS version
+rank = OpSysMajorVer  
+
++TransferAttempts = 5
+
+priority = 500
+
+# Add these to ensure home directory exists
++WantHome = true
++WantRemoteIO = true
+
+

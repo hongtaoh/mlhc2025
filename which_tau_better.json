@@ -1,0 +1,27 @@
+{
+    "conjugate_priors": {
+        "equal": 2899,
+        "highest_ll_order_better": 3088,
+        "ml_order_better": 3010
+    },
+    "mle": {
+        "equal": 3007,
+        "highest_ll_order_better": 3026,
+        "ml_order_better": 2964
+    },
+    "kde": {
+        "equal": 5846,
+        "highest_ll_order_better": 1638,
+        "ml_order_better": 1513
+    },
+    "em": {
+        "equal": 3613,
+        "highest_ll_order_better": 2912,
+        "ml_order_better": 2472
+    },
+    "hard_kmeans": {
+        "equal": 5678,
+        "highest_ll_order_better": 1671,
+        "ml_order_better": 1648
+    }
+}
