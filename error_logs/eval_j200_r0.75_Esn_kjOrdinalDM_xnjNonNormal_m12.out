@@ -1,0 +1,87 @@
+run_mlhc.sh started at Wed Aug  6 01:32:31 CDT 2025
+Running in directory: /var/lib/condor/execute/slot1/dir_975798/scratch
+Running with arguments: j200_r0.75_Esn_kjOrdinalDM_xnjNonNormal_m12
+Created logs directory at /var/lib/condor/execute/slot1/dir_975798/scratch/logs
+Extracting environment...
+Using extracted environment at .conda_env/bin/python
+=== ENVIRONMENT VALIDATION ===
+Python path: .conda_env/bin/python
+Python version: Python 3.9.23
+Extracting data...
+Files present:
+total 782360
+-rw-r--r--  1 hhao9 hhao9         0 Aug  6 01:32 _condor_stderr
+-rw-r--r--  1 hhao9 hhao9       480 Aug  6 01:33 _condor_stdout
+drwxr-xr-x 11 hhao9 hhao9      4096 Aug  6 01:32 algo_results
+-rw-r--r--  1 hhao9 hhao9    397800 Aug  6 01:32 all_combinations.txt
+-rw-r--r--  1 hhao9 hhao9      1290 Aug  6 01:32 config.yaml
+drwxr-xr-x  2 hhao9 hhao9    733184 Aug  6 00:46 data
+-rw-r--r--  1 hhao9 hhao9 485626050 Aug  6 01:32 data.tar.gz
+-rw-------  1 hhao9 hhao9 275979440 Aug  6 01:32 env.tar.gz
+drwxr-xr-x  2 hhao9 hhao9      4096 Aug  6 01:32 logs
+-rw-r--r--  1 hhao9 hhao9     15325 Aug  6 01:32 run.py
+-rw-r--r--  1 hhao9 hhao9      5114 Aug  6 01:32 run_mlhc.py
+-rwxr-xr-x  1 hhao9 hhao9      3522 Aug  6 01:32 run_mlhc.sh
+drwx------  2 hhao9 hhao9      4096 Aug  6 01:32 tmp
+-rw-r--r--  1 hhao9 hhao9  38322562 Aug  6 01:32 true_order_and_stages.json
+drwx------  3 hhao9 hhao9      4096 Aug  6 01:32 var
+=== STARTING MAIN SCRIPT ===
+Current working directory: /var/lib/condor/execute/slot1/dir_975798/scratch
+Processing with j200_r0.75_Esn_kjOrdinalDM_xnjNonNormal_m12
+Loaded config:
+{
+    "N_VARIANTS": 50,
+    "NStartpoints": 10,
+    "Niterations": 1000,
+    "N_MCMC": 10000,
+    "N_SHUFFLE": 2,
+    "BURN_IN": 500,
+    "THINNING": 1,
+    "GEN_SEED": 42,
+    "JS": [
+        50,
+        200,
+        500,
+        1000
+    ],
+    "MCMC_SEED": 53,
+    "RS": [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+    ],
+    "N_BOOTSTRAP": 50,
+    "SA_EBM_ALGO_NAMES": [
+        "conjugate_priors",
+        "mle",
+        "kde",
+        "em",
+        "hard_kmeans"
+    ],
+    "OTHER_ALGO_NAMES": [
+        "debm",
+        "debm_gmm",
+        "ucl_gmm",
+        "ucl_kde"
+    ],
+    "OUTPUT_DIR": "algo_results",
+    "EXPERIMENT_NAMES": [
+        "sn_kjOrdinalDM_xnjNormal",
+        "sn_kjOrdinalDM_xnjNonNormal",
+        "sn_kjOrdinalUniform_xnjNormal",
+        "sn_kjOrdinalUniform_xnjNonNormal",
+        "sn_kjContinuousUniform",
+        "sn_kjContinuousBeta",
+        "xiNearNormal_kjContinuousUniform",
+        "xiNearNormal_kjContinuousBeta",
+        "xiNearNormalWithNoise_kjContinuousBeta"
+    ]
+}
+Results saved to algo_results/debm/results/j200_r0.75_Esn_kjOrdinalDM_xnjNonNormal_m12_results.json
+[debm] QWK: 0.756, MAE: 1.22, Kendall's Tau: -0.244
+Results saved to algo_results/debm_gmm/results/j200_r0.75_Esn_kjOrdinalDM_xnjNonNormal_m12_results.json
+[debm_gmm] QWK: 0.070, MAE: 1.81, Kendall's Tau: -0.022
+Results saved to algo_results/ucl_gmm/results/j200_r0.75_Esn_kjOrdinalDM_xnjNonNormal_m12_results.json
+[ucl_gmm] QWK: 0.357, MAE: 3.67, Kendall's Tau: -0.067

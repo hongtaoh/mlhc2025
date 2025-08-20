@@ -27,9 +27,17 @@ Next, run `bash run.sh`. Modify `run.sh` as needed. Results will be stored in `a
 
 To get `all_results.csv`, run `python3 savd_csv.py`. 
 
-If to get ADNI results, run `bash run2.sh`. Results will be found in `adni_results`. 
+## ADNI
 
-Note that the results on ADNI (log tranformming TAU and PTAU) are in `adni_results_log_transformations`. 
+If to get ADNI results, run `python3 run_adni_loca.py`. Results will be found in `adni_norm_results`. 
+
+To get the results on ADNI (log tranformming TAU and PTAU), in `run_adni_loca.py`:
+
+    1. Change this line `OUTPUT_DIR = os.path.join(base_dir, 'adni_results')`  to `OUTPUT_DIR = os.path.join(base_dir, 'adni_log_results')`
+
+    2. Change `debm_output, data_matrix, df_long, participant_dx_dict, ordered_biomarkers = utils_adni.process_data(adni_filtered, ventricles_log=False, tau_log=False)` to `debm_output, data_matrix, df_long, participant_dx_dict, ordered_biomarkers = utils_adni.process_data(adni_filtered, ventricles_log=False, tau_log=True)`
+
+Results will be stored in the folder of `adni_log_results`. 
 
 ## Locally
 

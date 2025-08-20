@@ -5,8 +5,6 @@ import re
 import yaml
 from tqdm import tqdm
 import shutil
-from collections import defaultdict
-from sklearn.metrics import mean_absolute_error, cohen_kappa_score
 
 def extract_components(filename):
     # filename without "_results.json"
@@ -71,8 +69,6 @@ def main():
     failed_files = []
     records = []
 
-    which_tau_better = defaultdict(lambda: defaultdict(int))
-
     # Process all algorithms
     for algo in tqdm(ALL_ALGOS, desc="Processing algorithms"):
         algo_dir = os.path.join(OUTPUT_DIR, algo, "results")
@@ -130,38 +126,10 @@ def main():
                 algo_pretty = CONVERT_ALGO_DICT.get(algo.lower(), algo)  # fallback to raw if not found
                 E_pretty = CONVERT_E_DICT.get(E, E)
 
-                if algo in SA_EBM_ALGO_NAMES:
-                    ## Which Tau Better
-                    ml_order_tau = data['kendalls_tau']
-                    highest_ll_order_tau = data['kendalls_tau2']
-
-                    if ml_order_tau > highest_ll_order_tau:
-                        which_tau_better[algo]['ml_order_better'] += 1
-                    elif ml_order_tau < highest_ll_order_tau:
-                        which_tau_better[algo]['highest_ll_order_better'] += 1
-                    else:
-                        which_tau_better[algo]['equal'] += 1
-
-                    # # MAE
-                    # true_stages = data['true_stages']
-                    # final_stage_post = data['stage_likelihood_posterior']
-                    # n_participants = len(true_stages)
-                    # ml_stages_soft = [
-                    #     np.random.choice(len(final_stage_post[str(pid)]), p=final_stage_post[str(pid)]) + 1
-                    #     if str(pid) in final_stage_post else 0
-                    #     for pid in range(n_participants)
-                    # ]
-                    # mae_soft = mean_absolute_error(true_stages, ml_stages_soft)
-
-                    kendalls_tau = highest_ll_order_tau
-                    # mae_result = mae_soft
-                    # qwk_result = cohen_kappa_score(true_stages, ml_stages_soft, weights='quadratic')
-
-                else:
-                    kendalls_tau = data['kendalls_tau']
-
+                kendalls_tau = data['kendalls_tau']
+                if algo in OTHER_ALGO_NAMES:
+                    kendalls_tau = (1-kendalls_tau)/2
                 mae_result = data['mean_absolute_error']
-                mae_diseased_result = data['mean_absolute_error_diseased']
                 runtime = data['runtime']
 
                 records.append({
@@ -171,9 +139,8 @@ def main():
                     'M': M,
                     'algo': algo_pretty,
                     'runtime': runtime,
-                    'kendalls_tau': (1-kendalls_tau)/2,
-                    'mae': mae_result,
-                    'mae_diseased': mae_diseased_result
+                    'kendalls_tau': kendalls_tau,
+                    'mae': mae_result
                 })
             except json.JSONDecodeError:
                 failed_files.append((full_path, "Invalid JSON format"))
@@ -189,14 +156,6 @@ def main():
         df = df.sort_values(by=['J', 'R', 'E', 'M', 'algo'])
         df.to_csv('all_results.csv', index=False)
         print(f"\nSaved {len(df)} valid records to all_results.csv")
-
-    if which_tau_better:
-        sorted_tau_data = {
-            k: dict(sorted(v.items()))
-            for k, v in which_tau_better.items()
-        }
-        with open ('which_tau_better.json', 'w') as f:
-            json.dump(sorted_tau_data, f, indent=4)
 
     # Save diagnostics
     if missing_files:

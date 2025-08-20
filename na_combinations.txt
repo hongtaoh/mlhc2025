@@ -1,6 +1,3 @@
-j1000_r0.1_Esn_kjOrdinalDM_xnjNonNormal_m21
-j1000_r0.1_Esn_kjOrdinalUniform_xnjNonNormal_m25
-j1000_r0.1_ExiNearNormal_kjContinuousUniform_m9
 j1000_r0.75_Esn_kjOrdinalDM_xnjNonNormal_m11
 j1000_r0.9_Esn_kjOrdinalDM_xnjNonNormal_m10
 j1000_r0.9_Esn_kjOrdinalDM_xnjNonNormal_m42

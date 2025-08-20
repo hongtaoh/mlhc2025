@@ -1,0 +1,89 @@
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/heatmaps/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/traceplots/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/logs/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26.log
+2025-08-06 02:28:02,464 - INFO - Running conjugate priors for file: j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26
+2025-08-06 02:28:02,473 - INFO - Number of biomarkers: 10
+2025-08-06 02:28:22,880 - INFO - Iteration 1000/10000, Acceptance Ratio: 6.00%, Log Likelihood: -24666.9444, 
+2025-08-06 02:28:31,001 - INFO - Iteration 2000/10000, Acceptance Ratio: 3.40%, Log Likelihood: -24665.2672, 
+2025-08-06 02:28:39,105 - INFO - Iteration 3000/10000, Acceptance Ratio: 2.37%, Log Likelihood: -24663.8993, 
+2025-08-06 02:28:47,207 - INFO - Iteration 4000/10000, Acceptance Ratio: 1.77%, Log Likelihood: -24663.8993, 
+2025-08-06 02:28:55,289 - INFO - Iteration 5000/10000, Acceptance Ratio: 1.48%, Log Likelihood: -24663.3795, 
+2025-08-06 02:29:03,331 - INFO - Iteration 6000/10000, Acceptance Ratio: 1.23%, Log Likelihood: -24663.3795, 
+2025-08-06 02:29:11,367 - INFO - Iteration 7000/10000, Acceptance Ratio: 1.13%, Log Likelihood: -24666.8708, 
+2025-08-06 02:29:19,416 - INFO - Iteration 8000/10000, Acceptance Ratio: 1.12%, Log Likelihood: -24663.7836, 
+2025-08-06 02:29:27,491 - INFO - Iteration 9000/10000, Acceptance Ratio: 1.00%, Log Likelihood: -24663.7836, 
+2025-08-06 02:29:35,592 - INFO - Iteration 10000/10000, Acceptance Ratio: 0.90%, Log Likelihood: -24663.7836, 
+2025-08-06 02:29:36,497 - INFO - Results saved to algo_results/conjugate_priors/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+INFO:root:Starting cleanup for mle...
+WARNING:root:File does not exist, skipping removal: algo_results/mle/heatmaps/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/mle/traceplots/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/mle/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/mle/logs/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26.log
+2025-08-06 02:29:36,502 - INFO - Running mle for file: j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26
+2025-08-06 02:29:36,507 - INFO - Number of biomarkers: 10
+2025-08-06 02:29:44,581 - INFO - Iteration 1000/10000, Acceptance Ratio: 4.80%, Log Likelihood: -24732.7548, 
+2025-08-06 02:29:52,627 - INFO - Iteration 2000/10000, Acceptance Ratio: 2.60%, Log Likelihood: -24731.4173, 
+2025-08-06 02:30:00,656 - INFO - Iteration 3000/10000, Acceptance Ratio: 1.87%, Log Likelihood: -24730.5147, 
+2025-08-06 02:30:08,713 - INFO - Iteration 4000/10000, Acceptance Ratio: 1.77%, Log Likelihood: -24709.2634, 
+2025-08-06 02:30:16,732 - INFO - Iteration 5000/10000, Acceptance Ratio: 1.42%, Log Likelihood: -24709.2634, 
+2025-08-06 02:30:24,800 - INFO - Iteration 6000/10000, Acceptance Ratio: 1.18%, Log Likelihood: -24709.2634, 
+2025-08-06 02:30:32,761 - INFO - Iteration 7000/10000, Acceptance Ratio: 1.16%, Log Likelihood: -24667.4133, 
+2025-08-06 02:30:40,716 - INFO - Iteration 8000/10000, Acceptance Ratio: 1.01%, Log Likelihood: -24667.4133, 
+2025-08-06 02:30:48,673 - INFO - Iteration 9000/10000, Acceptance Ratio: 0.90%, Log Likelihood: -24667.4133, 
+2025-08-06 02:30:56,688 - INFO - Iteration 10000/10000, Acceptance Ratio: 0.81%, Log Likelihood: -24667.4133, 
+2025-08-06 02:30:56,706 - INFO - Results saved to algo_results/mle/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+INFO:root:Starting cleanup for kde...
+WARNING:root:File does not exist, skipping removal: algo_results/kde/heatmaps/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/kde/traceplots/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/kde/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/kde/logs/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26.log
+2025-08-06 02:30:56,712 - INFO - Running kde for file: j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26
+2025-08-06 02:30:56,718 - INFO - Number of biomarkers: 10
+2025-08-06 03:05:57,191 - INFO - Iteration 1000/10000, Acceptance Ratio: 2.00%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 03:40:44,748 - INFO - Iteration 2000/10000, Acceptance Ratio: 1.00%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 04:15:33,579 - INFO - Iteration 3000/10000, Acceptance Ratio: 0.67%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 04:50:18,965 - INFO - Iteration 4000/10000, Acceptance Ratio: 0.50%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 05:25:13,388 - INFO - Iteration 5000/10000, Acceptance Ratio: 0.40%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 06:00:05,236 - INFO - Iteration 6000/10000, Acceptance Ratio: 0.33%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 06:35:18,832 - INFO - Iteration 7000/10000, Acceptance Ratio: 0.29%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 07:10:30,888 - INFO - Iteration 8000/10000, Acceptance Ratio: 0.25%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 07:45:29,136 - INFO - Iteration 9000/10000, Acceptance Ratio: 0.22%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 08:20:18,325 - INFO - Iteration 10000/10000, Acceptance Ratio: 0.20%, Log Likelihood: -27542.6075, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(2), np.int64(10), np.int64(3), np.int64(8), np.int64(7), np.int64(4), np.int64(6)]), 
+2025-08-06 08:20:19,775 - INFO - Results saved to algo_results/kde/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+INFO:root:Starting cleanup for em...
+WARNING:root:File does not exist, skipping removal: algo_results/em/heatmaps/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/em/traceplots/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/em/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/em/logs/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26.log
+2025-08-06 08:20:19,780 - INFO - Running em for file: j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26
+2025-08-06 08:20:19,786 - INFO - Number of biomarkers: 10
+2025-08-06 08:20:27,533 - INFO - Iteration 1000/10000, Acceptance Ratio: 4.70%, Log Likelihood: -24378.1870, 
+2025-08-06 08:20:35,250 - INFO - Iteration 2000/10000, Acceptance Ratio: 3.20%, Log Likelihood: -24375.6501, 
+2025-08-06 08:20:42,963 - INFO - Iteration 3000/10000, Acceptance Ratio: 2.37%, Log Likelihood: -24376.0292, 
+2025-08-06 08:20:50,685 - INFO - Iteration 4000/10000, Acceptance Ratio: 1.82%, Log Likelihood: -24378.1050, 
+2025-08-06 08:20:58,427 - INFO - Iteration 5000/10000, Acceptance Ratio: 2.28%, Log Likelihood: -24376.0641, 
+2025-08-06 08:21:06,140 - INFO - Iteration 6000/10000, Acceptance Ratio: 2.17%, Log Likelihood: -24371.8288, 
+2025-08-06 08:21:13,853 - INFO - Iteration 7000/10000, Acceptance Ratio: 1.86%, Log Likelihood: -24371.8288, 
+2025-08-06 08:21:21,600 - INFO - Iteration 8000/10000, Acceptance Ratio: 1.62%, Log Likelihood: -24371.8288, 
+2025-08-06 08:21:29,337 - INFO - Iteration 9000/10000, Acceptance Ratio: 1.44%, Log Likelihood: -24371.8288, 
+2025-08-06 08:21:37,055 - INFO - Iteration 10000/10000, Acceptance Ratio: 1.30%, Log Likelihood: -24371.8288, 
+2025-08-06 08:21:37,075 - INFO - Results saved to algo_results/em/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+INFO:root:Starting cleanup for hard kmeans...
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/heatmaps/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/traceplots/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/logs/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26.log
+2025-08-06 08:21:37,080 - INFO - Running hard kmeans for file: j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26
+2025-08-06 08:21:37,085 - INFO - Number of biomarkers: 10
+2025-08-06 08:21:39,634 - INFO - Iteration 1000/10000, Acceptance Ratio: 1.60%, Log Likelihood: -28403.7827, 
+2025-08-06 08:21:42,155 - INFO - Iteration 2000/10000, Acceptance Ratio: 0.80%, Log Likelihood: -28403.7827, 
+2025-08-06 08:21:44,677 - INFO - Iteration 3000/10000, Acceptance Ratio: 0.60%, Log Likelihood: -28404.3412, 
+2025-08-06 08:21:47,199 - INFO - Iteration 4000/10000, Acceptance Ratio: 0.65%, Log Likelihood: -28404.9194, 
+2025-08-06 08:21:49,750 - INFO - Iteration 5000/10000, Acceptance Ratio: 0.68%, Log Likelihood: -28405.7284, 
+2025-08-06 08:21:52,275 - INFO - Iteration 6000/10000, Acceptance Ratio: 0.63%, Log Likelihood: -28404.2603, 
+2025-08-06 08:21:54,794 - INFO - Iteration 7000/10000, Acceptance Ratio: 0.54%, Log Likelihood: -28404.2603, 
+2025-08-06 08:21:57,320 - INFO - Iteration 8000/10000, Acceptance Ratio: 0.53%, Log Likelihood: -28406.3957, 
+2025-08-06 08:21:59,837 - INFO - Iteration 9000/10000, Acceptance Ratio: 0.47%, Log Likelihood: -28406.3957, 
+2025-08-06 08:22:02,354 - INFO - Iteration 10000/10000, Acceptance Ratio: 0.42%, Log Likelihood: -28406.3957, 
+2025-08-06 08:22:02,371 - INFO - Results saved to algo_results/hard_kmeans/results/j1000_r0.25_Esn_kjOrdinalDM_xnjNormal_m26_results.json

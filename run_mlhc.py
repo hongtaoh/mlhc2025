@@ -2,10 +2,10 @@ import sys
 import os 
 sys.path.append(os.getcwd())
 
-import numpy as np 
+# import numpy as np 
 import json 
 from run import convert2debm_and_ucl, run_debm, run_ucl
-from pysaebm import run_ebm
+from pysaebm import run_ebm 
 from typing import Dict, List, Optional, Tuple
 
 import yaml
@@ -59,10 +59,29 @@ if __name__ == "__main__":
     # Step1: Our model
     ###################################################################################
     for algo_name in sa_ebm_algo_names:
+        # run_ebm(
+        #     algorithm=algo_name,
+        #     data_file=data_file,
+        #     output_dir=OUTPUT_DIR,
+        #     n_iter=100,
+        #     n_shuffle=N_SHUFFLE,
+        #     burn_in=10,
+        #     thinning=THINNING,
+        #     true_order_dict=true_order_dict,
+        #     true_stages=true_stages,
+        #     skip_heatmap = True,
+        #     skip_traceplot = True,
+        #     seed = 53,
+        #     save_results=True,
+        #     save_details=False,
+        #     save_theta_phi=False,
+        #     save_stage_post=False,
+        # )
+
         run_ebm(
+            algorithm=algo_name,
             data_file=data_file,
             output_dir=OUTPUT_DIR,
-            algorithm=algo_name,
             n_iter=N_MCMC,
             n_shuffle=N_SHUFFLE,
             burn_in=BURN_IN,
@@ -71,11 +90,16 @@ if __name__ == "__main__":
             true_stages=true_stages,
             skip_heatmap = True,
             skip_traceplot = True,
+            seed = 53,
+            save_results=True,
+            save_details=False,
+            save_theta_phi=False,
+            save_stage_post=False,
         )
 
-    # ###################################################################################
-    # # Step2: Other models
-    # ###################################################################################
+    ###################################################################################
+    # Step2: Other models
+    ###################################################################################
     # Convert and Extract data
     try:
         debm_output, data_matrix, non_diseased_ids = convert2debm_and_ucl(data_file, true_order_dict)

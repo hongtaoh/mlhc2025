@@ -1,6 +1,6 @@
 {
     "algorithm": "UCL GMM",
-    "runtime": 10.345293283462524,
+    "runtime": 4.2621214389801025,
     "N_MCMC": 10000,
     "NStartpoints": 10,
     "NIterations": 1000,

@@ -1,13 +1,13 @@
-2025-05-28 20:19:10,445 - INFO - Running mle for file: adni
-2025-05-28 20:19:10,451 - INFO - Number of biomarkers: 12
-2025-05-28 20:27:10,108 - INFO - Iteration 1000/10000, Acceptance Ratio: 4.40%, Log Likelihood: -61912.5900, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(3), np.int64(4)]), 
-2025-05-28 20:35:04,936 - INFO - Iteration 2000/10000, Acceptance Ratio: 2.20%, Log Likelihood: -61912.5900, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(3), np.int64(4)]), 
-2025-05-28 20:43:23,764 - INFO - Iteration 3000/10000, Acceptance Ratio: 1.47%, Log Likelihood: -61912.5900, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(3), np.int64(4)]), 
-2025-05-28 20:52:02,571 - INFO - Iteration 4000/10000, Acceptance Ratio: 1.10%, Log Likelihood: -61912.5900, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(3), np.int64(4)]), 
-2025-05-28 21:00:11,867 - INFO - Iteration 5000/10000, Acceptance Ratio: 0.88%, Log Likelihood: -61912.5900, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(3), np.int64(4)]), 
-2025-05-28 21:09:03,419 - INFO - Iteration 6000/10000, Acceptance Ratio: 0.75%, Log Likelihood: -61918.2429, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(4), np.int64(3)]), 
-2025-05-28 21:18:02,606 - INFO - Iteration 7000/10000, Acceptance Ratio: 0.64%, Log Likelihood: -61918.2429, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(4), np.int64(3)]), 
-2025-05-28 21:26:35,001 - INFO - Iteration 8000/10000, Acceptance Ratio: 0.56%, Log Likelihood: -61918.2429, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(4), np.int64(3)]), 
-2025-05-28 21:34:59,045 - INFO - Iteration 9000/10000, Acceptance Ratio: 0.50%, Log Likelihood: -61918.2429, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(4), np.int64(3)]), 
-2025-05-28 21:43:06,393 - INFO - Iteration 10000/10000, Acceptance Ratio: 0.45%, Log Likelihood: -61918.2429, Current Accepted Order: dict_values([np.int64(5), np.int64(2), np.int64(6), np.int64(1), np.int64(7), np.int64(9), np.int64(8), np.int64(11), np.int64(10), np.int64(12), np.int64(4), np.int64(3)]), 
-2025-05-28 21:43:09,019 - INFO - Results saved to adni_results/mle/results/adni_results.json
+2025-08-07 11:44:02,250 - INFO - Running mle for file: adni
+2025-08-07 11:44:02,252 - INFO - Number of biomarkers: 12
+2025-08-07 11:44:16,937 - INFO - Iteration 1000/10000, Acceptance Ratio: 7.00%, Log Likelihood: -61844.6450, 
+2025-08-07 11:44:22,008 - INFO - Iteration 2000/10000, Acceptance Ratio: 4.85%, Log Likelihood: -61844.5773, 
+2025-08-07 11:44:27,063 - INFO - Iteration 3000/10000, Acceptance Ratio: 3.23%, Log Likelihood: -61844.5773, 
+2025-08-07 11:44:32,114 - INFO - Iteration 4000/10000, Acceptance Ratio: 2.42%, Log Likelihood: -61844.5773, 
+2025-08-07 11:44:37,170 - INFO - Iteration 5000/10000, Acceptance Ratio: 2.24%, Log Likelihood: -61846.0630, 
+2025-08-07 11:44:42,226 - INFO - Iteration 6000/10000, Acceptance Ratio: 2.35%, Log Likelihood: -61844.9285, 
+2025-08-07 11:44:47,276 - INFO - Iteration 7000/10000, Acceptance Ratio: 2.13%, Log Likelihood: -61843.8786, 
+2025-08-07 11:44:52,323 - INFO - Iteration 8000/10000, Acceptance Ratio: 1.86%, Log Likelihood: -61843.8786, 
+2025-08-07 11:44:57,366 - INFO - Iteration 9000/10000, Acceptance Ratio: 1.66%, Log Likelihood: -61843.8786, 
+2025-08-07 11:45:02,414 - INFO - Iteration 10000/10000, Acceptance Ratio: 1.49%, Log Likelihood: -61843.8786, 
+2025-08-07 11:45:04,209 - INFO - Results saved to /home/hhao9/mlhc_sub/adni_results/mle/results/adni_results.json

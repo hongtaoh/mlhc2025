@@ -5,70 +5,70 @@ ALGORITHM COMPARISON ANALYSIS REPORT
 --------------------
 
 AD:
-  Conjugate Priors: Mean=9.307, Var=5.543, n=153
-  MLE: Mean=9.575, Var=9.272, n=153
+  Conjugate Priors: Mean=8.118, Var=15.710, n=153
+  MLE: Mean=8.248, Var=17.056, n=153
   EM: Mean=11.222, Var=3.437, n=153
   Hard K-Means: Mean=9.922, Var=7.336, n=153
   KDE: Mean=10.346, Var=6.583, n=153
-  UCL GMM: Mean=10.033, Var=3.624, n=153
-  DEBM: Mean=8.098, Var=6.300, n=153
-  DEBM GMM: Mean=9.523, Var=3.870, n=153
+  UCL GMM: Mean=9.961, Var=6.696, n=153
+  DEBM: Mean=8.242, Var=6.527, n=153
+  DEBM GMM: Mean=9.588, Var=3.757, n=153
 
 LMCI:
-  Conjugate Priors: Mean=5.941, Var=16.048, n=236
-  MLE: Mean=5.758, Var=20.737, n=236
+  Conjugate Priors: Mean=2.411, Var=18.992, n=236
+  MLE: Mean=2.364, Var=19.118, n=236
   EM: Mean=7.093, Var=22.366, n=236
   Hard K-Means: Mean=6.572, Var=20.799, n=236
   KDE: Mean=6.987, Var=22.762, n=236
-  UCL GMM: Mean=7.195, Var=13.792, n=236
-  DEBM: Mean=5.085, Var=14.316, n=236
-  DEBM GMM: Mean=5.754, Var=13.999, n=236
+  UCL GMM: Mean=5.220, Var=16.564, n=236
+  DEBM: Mean=5.148, Var=14.859, n=236
+  DEBM GMM: Mean=5.809, Var=14.274, n=236
 
 CN:
-  Conjugate Priors: Mean=1.032, Var=3.304, n=155
-  MLE: Mean=0.955, Var=1.927, n=155
+  Conjugate Priors: Mean=0.039, Var=0.232, n=155
+  MLE: Mean=0.032, Var=0.161, n=155
   EM: Mean=1.968, Var=4.525, n=155
   Hard K-Means: Mean=1.116, Var=2.792, n=155
   KDE: Mean=0.923, Var=2.046, n=155
-  UCL GMM: Mean=2.071, Var=6.924, n=155
-  DEBM: Mean=1.006, Var=2.812, n=155
+  UCL GMM: Mean=1.348, Var=2.735, n=155
+  DEBM: Mean=1.045, Var=3.433, n=155
   DEBM GMM: Mean=1.342, Var=3.551, n=155
 
 EMCI:
-  Conjugate Priors: Mean=2.753, Var=11.215, n=182
-  MLE: Mean=2.324, Var=9.922, n=182
+  Conjugate Priors: Mean=0.511, Var=4.638, n=182
+  MLE: Mean=0.412, Var=3.404, n=182
   EM: Mean=3.198, Var=13.242, n=182
   Hard K-Means: Mean=2.841, Var=13.052, n=182
   KDE: Mean=2.929, Var=13.857, n=182
-  UCL GMM: Mean=4.088, Var=13.384, n=182
-  DEBM: Mean=2.187, Var=8.683, n=182
-  DEBM GMM: Mean=2.665, Var=9.517, n=182
+  UCL GMM: Mean=2.352, Var=6.483, n=182
+  DEBM: Mean=2.209, Var=8.973, n=182
+  DEBM GMM: Mean=2.665, Var=9.296, n=182
 
 2. STATISTICAL TESTS
 --------------------
           Algorithm  F-statistic        p-value Significant
-0  Conjugate Priors   214.621147   1.655479e-99         Yes
-1               MLE   204.074039   7.722840e-96         Yes
+0  Conjugate Priors   201.747318   5.114514e-95         Yes
+1               MLE   211.424596   2.098136e-98         Yes
 2                EM   227.738238  5.922662e-104         Yes
 3      Hard K-Means   203.940063   8.608680e-96         Yes
 4               KDE   224.506122  7.186219e-103         Yes
-5           UCL GMM   194.322843   2.278963e-92         Yes
-6              DEBM   183.495965   2.006541e-88         Yes
-7          DEBM GMM   247.040331  2.820383e-110         Yes
+5           UCL GMM   260.558416  1.477286e-114         Yes
+6              DEBM   180.443916   2.707531e-87         Yes
+7          DEBM GMM   251.367931  1.167128e-111         Yes
 
 3. EFFECT SIZES
 --------------------
           Algorithm  Eta-squared
-0  Conjugate Priors     0.471397
-1               MLE     0.458861
+0  Conjugate Priors     0.456015
+1               MLE     0.467659
 2                EM     0.486200
 3      Hard K-Means     0.458698
 4               KDE     0.482630
-5           UCL GMM     0.446730
-6              DEBM     0.432608
-7          DEBM GMM     0.506534
+5           UCL GMM     0.519843
+6              DEBM     0.428495
+7          DEBM GMM     0.510875
 
 4. KEY FINDINGS
 --------------------
 Algorithms showing significant differences: Conjugate Priors, MLE, EM, Hard K-Means, KDE, UCL GMM, DEBM, DEBM GMM
-Algorithm with largest effect size: DEBM GMM (η² = 0.5065)
+Algorithm with largest effect size: UCL GMM (η² = 0.5198)

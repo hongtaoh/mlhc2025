@@ -1,0 +1,27 @@
+000 (2238051.2335.000) 2025-08-06 01:05:04 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_7723_ea02>
+...
+009 (2238050.2335.000) 2025-08-06 01:05:06 Job was aborted.
+	via condor_rm (by user hhao9)
+...
+040 (2238051.2335.000) 2025-08-06 01:35:27 Started transferring input files
+	Transferring to host: <128.105.69.109:9618?addrs=128.105.69.109-9618+[2607-f388-2200-100-1270-fdff-fe56-bf64]-9618&alias=e4058.chtc.wisc.edu&noUDP&sock=slot1_83_424727_5810_10188>
+...
+040 (2238051.2335.000) 2025-08-06 01:35:29 Finished transferring input files
+...
+001 (2238051.2335.000) 2025-08-06 01:35:29 Job executing on host: <128.105.69.109:9618?addrs=128.105.69.109-9618+[2607-f388-2200-100-1270-fdff-fe56-bf64]-9618&alias=e4058.chtc.wisc.edu&noUDP&sock=startd_14662_7dae>
+	SlotName: slot1_83@e4058.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2019055/scratch"
+	Cpus = 2
+	Disk = 8389761
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (2238051.2335.000) 2025-08-06 01:35:38 Image size of job updated: 944
+	1  -  MemoryUsage of job (MB)
+	912  -  ResidentSetSize of job (KB)
+...
+006 (2238051.2335.000) 2025-08-06 01:40:39 Image size of job updated: 277496
+	271  -  MemoryUsage of job (MB)
+	277240  -  ResidentSetSize of job (KB)
+...

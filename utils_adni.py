@@ -3,7 +3,7 @@ import numpy as np
 import os 
 from typing import List, Dict, Tuple, Optional
 import copy 
-import altair as alt
+import altair as alt 
 import run 
 import matplotlib.pyplot as plt 
 import seaborn as sns 
@@ -70,25 +70,34 @@ def process_data(df:pd.DataFrame, ventricles_log:bool, tau_log:bool) -> Tuple[pd
     """
     df['PTID'] = range(len(df))
     # df['Diagnosis'] = ['MCI' if x in ['EMCI', 'LMCI'] else x for x in df.DX_bl]
-    df['Diagnosis'] = df.DX_bl
+    # df['Diagnosis'] = df.DX_bl
     df.columns = df.columns.str.replace('_bl', '', regex=False)
     df['Diagnosis'] = df.DX
+    # ICV normalization because brain sizes vary a lot 
+    df['VentricleNorm']  = df['Ventricles']  / df['ICV']
+    df['HippocampusNorm'] = df['Hippocampus'] / df['ICV']
+    df['WholeBrainNorm']  = df['WholeBrain']  / df['ICV']
+    df['EntorhinalNorm']  = df['Entorhinal']  / df['ICV']
+    df['FusiformNorm']    = df['Fusiform']    / df['ICV']
+    df['MidTempNorm']     = df['MidTemp']     / df['ICV']
     if tau_log:
         df['TAU (log)'] = np.log10(df['TAU'])
         df['PTAU (log)'] = np.log10(df['PTAU'])
         df.drop(['TAU', 'PTAU'], axis=1, inplace=True)
     if ventricles_log:
-        df['Ventricles (log)'] = np.log10(df['Ventricles'])
-        df.drop(['Ventricles'], axis=1, inplace=True)
+        df['VentricleNorm (log)'] = np.log10(df['VentricleNorm'])
+        df.drop(['VentricleNorm', 'Ventricles'], axis=1, inplace=True)
     participant_dx_dict = dict(zip(df.PTID, df.DX))
-    df.drop(['VISCODE', 'COLPROT', 'DX'], axis=1, inplace=True)
+    df.drop([
+        'VISCODE', 'COLPROT', 'DX', 'ICV', 'Ventricles', 
+        'Hippocampus', 'WholeBrain', 'Entorhinal', 'Fusiform', 'MidTemp'
+        ], axis=1, inplace=True)
     # for debm
     debm_output = df.copy()
     df.drop(['Diagnosis', 'PTID'], axis=1, inplace=True)
     # Ordered biomarkers, to match the ordering outputs later
     ordered_biomarkers = list(df.columns)
-    df['diseased'] = [int(dx == 'AD') for dx in participant_dx_dict.values()]
-    # df['diseased'] = [int(dx != 'CN') for dx in participant_dx_dict.values()]
+    df['diseased'] = [int(dx != 'CN') for dx in participant_dx_dict.values()]
     # for ucl
     data_matrix = copy.deepcopy(df.to_numpy())
     df['participant'] = range(len(df))
@@ -423,6 +432,7 @@ def plot_staging(ml_stages:List[int], participant_dx_dict:Dict[int, str], algori
         title={
             'text': f'Distribution of Disease Stages by Diagnosis, {algorithm}',
             'anchor': 'middle',
+            'fontWeight': 'normal',
             'fontSize': 14,
             'dy': -10
         }

@@ -5,7 +5,7 @@ echo "run_mlhc.sh started at $(date)"
 echo "Running in directory: $(pwd)"
 echo "Running with arguments: $@"
 
-cp /staging/hhao9/data.tar.gz .
+# cp /staging/hhao9/data.tar.gz .
 
 # Prevent user-level site packages from interfering
 export PYTHONNOUSERSITE=1

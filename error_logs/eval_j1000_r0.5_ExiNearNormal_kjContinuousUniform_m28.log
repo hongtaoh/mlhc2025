@@ -1,0 +1,49 @@
+000 (2238051.5177.000) 2025-08-06 01:05:04 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_7723_ea02>
+...
+009 (2238050.5177.000) 2025-08-06 01:05:06 Job was aborted.
+	via condor_rm (by user hhao9)
+...
+022 (2238051.5177.000) 2025-08-06 02:38:33 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_38@e2017.chtc.wisc.edu <128.105.68.158:9618?addrs=128.105.68.158-9618+[2607-f388-2200-100-b226-28ff-fe50-6730]-9618&alias=e2017.chtc.wisc.edu&noUDP&sock=startd_9358_635b>
+...
+024 (2238051.5177.000) 2025-08-06 02:38:46 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_38@e2017.chtc.wisc.edu, rescheduling job
+...
+004 (2238051.5177.000) 2025-08-06 02:38:46 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1000000  8388608   8389842 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :              4096      4096 
+...
+040 (2238051.5177.000) 2025-08-06 02:38:47 Started transferring input files
+	Transferring to host: <128.105.68.31:9618?addrs=128.105.68.31-9618+[2607-f388-2200-100-3680-dff-fe2e-7760]-9618&alias=e2461.chtc.wisc.edu&noUDP&sock=slot1_88_3144745_16e1_16388>
+...
+040 (2238051.5177.000) 2025-08-06 02:38:50 Finished transferring input files
+...
+001 (2238051.5177.000) 2025-08-06 02:38:50 Job executing on host: <128.105.68.31:9618?addrs=128.105.68.31-9618+[2607-f388-2200-100-3680-dff-fe2e-7760]-9618&alias=e2461.chtc.wisc.edu&noUDP&sock=startd_11580_7ecb>
+	SlotName: slot1_88@e2461.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1966448/scratch"
+	Cpus = 2
+	Disk = 8389632
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (2238051.5177.000) 2025-08-06 02:39:00 Image size of job updated: 952
+	1  -  MemoryUsage of job (MB)
+	952  -  ResidentSetSize of job (KB)
+...
+006 (2238051.5177.000) 2025-08-06 02:44:00 Image size of job updated: 226480
+	222  -  MemoryUsage of job (MB)
+	226480  -  ResidentSetSize of job (KB)
+...

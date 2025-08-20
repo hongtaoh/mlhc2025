@@ -1,4 +1,4 @@
-.env.tar.gz
+env.tar.gz
 algo_results/
 experimental_notebooks/
 .vscode/
@@ -6,3 +6,5 @@ __pycache__/
 logs/
 ADNIMERGE.csv
 adni.csv
+data.tar.gz 
+adni_log.csv

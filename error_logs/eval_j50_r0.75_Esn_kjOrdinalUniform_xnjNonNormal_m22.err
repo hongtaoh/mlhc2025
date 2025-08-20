@@ -1,0 +1,107 @@
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/heatmaps/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/traceplots/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/conjugate_priors/logs/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22.log
+2025-08-06 02:11:01,481 - INFO - Running conjugate priors for file: j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22
+2025-08-06 02:11:01,487 - INFO - Number of biomarkers: 10
+2025-08-06 02:11:14,174 - INFO - Iteration 1000/10000, Acceptance Ratio: 9.80%, Log Likelihood: -1263.8646, 
+2025-08-06 02:11:14,366 - INFO - Iteration 2000/10000, Acceptance Ratio: 7.85%, Log Likelihood: -1263.5399, 
+2025-08-06 02:11:14,556 - INFO - Iteration 3000/10000, Acceptance Ratio: 6.13%, Log Likelihood: -1266.3437, 
+2025-08-06 02:11:14,748 - INFO - Iteration 4000/10000, Acceptance Ratio: 5.85%, Log Likelihood: -1266.8528, 
+2025-08-06 02:11:14,940 - INFO - Iteration 5000/10000, Acceptance Ratio: 6.28%, Log Likelihood: -1265.2564, 
+2025-08-06 02:11:15,131 - INFO - Iteration 6000/10000, Acceptance Ratio: 5.60%, Log Likelihood: -1265.0479, 
+2025-08-06 02:11:15,322 - INFO - Iteration 7000/10000, Acceptance Ratio: 4.80%, Log Likelihood: -1265.0479, 
+2025-08-06 02:11:15,516 - INFO - Iteration 8000/10000, Acceptance Ratio: 5.03%, Log Likelihood: -1268.1441, 
+2025-08-06 02:11:15,709 - INFO - Iteration 9000/10000, Acceptance Ratio: 5.12%, Log Likelihood: -1262.6774, 
+2025-08-06 02:11:15,906 - INFO - Iteration 10000/10000, Acceptance Ratio: 5.54%, Log Likelihood: -1263.6175, 
+2025-08-06 02:11:16,799 - INFO - Results saved to algo_results/conjugate_priors/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+INFO:root:Starting cleanup for mle...
+WARNING:root:File does not exist, skipping removal: algo_results/mle/heatmaps/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/mle/traceplots/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/mle/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/mle/logs/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22.log
+2025-08-06 02:11:16,804 - INFO - Running mle for file: j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22
+2025-08-06 02:11:16,806 - INFO - Number of biomarkers: 10
+2025-08-06 02:11:17,012 - INFO - Iteration 1000/10000, Acceptance Ratio: 9.60%, Log Likelihood: -1265.7066, 
+2025-08-06 02:11:17,201 - INFO - Iteration 2000/10000, Acceptance Ratio: 7.55%, Log Likelihood: -1263.1045, 
+2025-08-06 02:11:17,392 - INFO - Iteration 3000/10000, Acceptance Ratio: 9.00%, Log Likelihood: -1267.2293, 
+2025-08-06 02:11:17,582 - INFO - Iteration 4000/10000, Acceptance Ratio: 7.78%, Log Likelihood: -1266.2294, 
+2025-08-06 02:11:17,775 - INFO - Iteration 5000/10000, Acceptance Ratio: 7.82%, Log Likelihood: -1265.3390, 
+2025-08-06 02:11:17,963 - INFO - Iteration 6000/10000, Acceptance Ratio: 6.78%, Log Likelihood: -1263.9959, 
+2025-08-06 02:11:18,150 - INFO - Iteration 7000/10000, Acceptance Ratio: 6.07%, Log Likelihood: -1262.4674, 
+2025-08-06 02:11:18,339 - INFO - Iteration 8000/10000, Acceptance Ratio: 6.04%, Log Likelihood: -1266.6975, 
+2025-08-06 02:11:18,528 - INFO - Iteration 9000/10000, Acceptance Ratio: 6.20%, Log Likelihood: -1268.9571, 
+2025-08-06 02:11:18,715 - INFO - Iteration 10000/10000, Acceptance Ratio: 6.44%, Log Likelihood: -1266.0315, 
+2025-08-06 02:11:18,717 - INFO - Results saved to algo_results/mle/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+INFO:root:Starting cleanup for kde...
+WARNING:root:File does not exist, skipping removal: algo_results/kde/heatmaps/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/kde/traceplots/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/kde/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/kde/logs/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22.log
+2025-08-06 02:11:18,720 - INFO - Running kde for file: j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22
+2025-08-06 02:11:18,721 - INFO - Number of biomarkers: 10
+2025-08-06 02:11:36,103 - INFO - Iteration 1000/10000, Acceptance Ratio: 13.10%, Log Likelihood: -1252.1531, Current Accepted Order: dict_values([np.int64(4), np.int64(8), np.int64(5), np.int64(3), np.int64(7), np.int64(6), np.int64(1), np.int64(2), np.int64(10), np.int64(9)]), 
+2025-08-06 02:11:52,150 - INFO - Iteration 2000/10000, Acceptance Ratio: 11.70%, Log Likelihood: -1252.7319, Current Accepted Order: dict_values([np.int64(8), np.int64(9), np.int64(2), np.int64(6), np.int64(3), np.int64(7), np.int64(4), np.int64(5), np.int64(1), np.int64(10)]), 
+2025-08-06 02:12:08,182 - INFO - Iteration 3000/10000, Acceptance Ratio: 10.77%, Log Likelihood: -1253.1260, Current Accepted Order: dict_values([np.int64(8), np.int64(9), np.int64(1), np.int64(3), np.int64(6), np.int64(5), np.int64(10), np.int64(4), np.int64(2), np.int64(7)]), 
+2025-08-06 02:12:24,187 - INFO - Iteration 4000/10000, Acceptance Ratio: 10.95%, Log Likelihood: -1256.5487, Current Accepted Order: dict_values([np.int64(10), np.int64(8), np.int64(1), np.int64(2), np.int64(5), np.int64(4), np.int64(7), np.int64(3), np.int64(6), np.int64(9)]), 
+2025-08-06 02:12:40,200 - INFO - Iteration 5000/10000, Acceptance Ratio: 11.50%, Log Likelihood: -1254.0191, Current Accepted Order: dict_values([np.int64(6), np.int64(8), np.int64(1), np.int64(3), np.int64(2), np.int64(5), np.int64(10), np.int64(4), np.int64(7), np.int64(9)]), 
+2025-08-06 02:12:56,141 - INFO - Iteration 6000/10000, Acceptance Ratio: 11.20%, Log Likelihood: -1252.1964, Current Accepted Order: dict_values([np.int64(6), np.int64(7), np.int64(1), np.int64(3), np.int64(9), np.int64(5), np.int64(4), np.int64(2), np.int64(10), np.int64(8)]), 
+2025-08-06 02:13:12,061 - INFO - Iteration 7000/10000, Acceptance Ratio: 11.46%, Log Likelihood: -1256.3128, Current Accepted Order: dict_values([np.int64(3), np.int64(9), np.int64(1), np.int64(4), np.int64(7), np.int64(8), np.int64(2), np.int64(6), np.int64(5), np.int64(10)]), 
+2025-08-06 02:13:28,147 - INFO - Iteration 8000/10000, Acceptance Ratio: 11.91%, Log Likelihood: -1253.5940, Current Accepted Order: dict_values([np.int64(7), np.int64(8), np.int64(1), np.int64(2), np.int64(10), np.int64(5), np.int64(4), np.int64(3), np.int64(6), np.int64(9)]), 
+2025-08-06 02:13:44,203 - INFO - Iteration 9000/10000, Acceptance Ratio: 11.66%, Log Likelihood: -1255.8974, Current Accepted Order: dict_values([np.int64(10), np.int64(9), np.int64(2), np.int64(8), np.int64(5), np.int64(3), np.int64(1), np.int64(4), np.int64(6), np.int64(7)]), 
+2025-08-06 02:14:00,132 - INFO - Iteration 10000/10000, Acceptance Ratio: 11.95%, Log Likelihood: -1251.1685, Current Accepted Order: dict_values([np.int64(5), np.int64(9), np.int64(1), np.int64(3), np.int64(10), np.int64(6), np.int64(2), np.int64(4), np.int64(8), np.int64(7)]), 
+2025-08-06 02:14:00,149 - INFO - Results saved to algo_results/kde/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+INFO:root:Starting cleanup for em...
+WARNING:root:File does not exist, skipping removal: algo_results/em/heatmaps/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/em/traceplots/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/em/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/em/logs/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22.log
+2025-08-06 02:14:00,153 - INFO - Running em for file: j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22
+2025-08-06 02:14:00,155 - INFO - Number of biomarkers: 10
+2025-08-06 02:14:00,346 - INFO - Iteration 1000/10000, Acceptance Ratio: 7.20%, Log Likelihood: -1262.8023, 
+2025-08-06 02:14:00,521 - INFO - Iteration 2000/10000, Acceptance Ratio: 4.30%, Log Likelihood: -1264.0331, 
+2025-08-06 02:14:00,696 - INFO - Iteration 3000/10000, Acceptance Ratio: 3.80%, Log Likelihood: -1264.5060, 
+2025-08-06 02:14:00,872 - INFO - Iteration 4000/10000, Acceptance Ratio: 3.33%, Log Likelihood: -1265.6031, 
+2025-08-06 02:14:01,046 - INFO - Iteration 5000/10000, Acceptance Ratio: 2.94%, Log Likelihood: -1265.8577, 
+2025-08-06 02:14:01,222 - INFO - Iteration 6000/10000, Acceptance Ratio: 3.72%, Log Likelihood: -1265.2903, 
+2025-08-06 02:14:01,395 - INFO - Iteration 7000/10000, Acceptance Ratio: 3.31%, Log Likelihood: -1264.2724, 
+2025-08-06 02:14:01,569 - INFO - Iteration 8000/10000, Acceptance Ratio: 3.06%, Log Likelihood: -1268.2644, 
+2025-08-06 02:14:01,745 - INFO - Iteration 9000/10000, Acceptance Ratio: 3.53%, Log Likelihood: -1267.0934, 
+2025-08-06 02:14:01,922 - INFO - Iteration 10000/10000, Acceptance Ratio: 3.76%, Log Likelihood: -1265.6772, 
+2025-08-06 02:14:01,924 - INFO - Results saved to algo_results/em/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+INFO:root:Starting cleanup for hard kmeans...
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/heatmaps/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_heatmap.png
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/traceplots/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_traceplot.png
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+WARNING:root:File does not exist, skipping removal: algo_results/hard_kmeans/logs/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22.log
+2025-08-06 02:14:01,925 - INFO - Running hard kmeans for file: j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22
+2025-08-06 02:14:01,929 - INFO - Number of biomarkers: 10
+2025-08-06 02:14:02,031 - INFO - Iteration 1000/10000, Acceptance Ratio: 3.30%, Log Likelihood: -1530.6014, 
+2025-08-06 02:14:02,118 - INFO - Iteration 2000/10000, Acceptance Ratio: 2.75%, Log Likelihood: -1526.9722, 
+2025-08-06 02:14:02,206 - INFO - Iteration 3000/10000, Acceptance Ratio: 2.90%, Log Likelihood: -1527.4860, 
+2025-08-06 02:14:02,293 - INFO - Iteration 4000/10000, Acceptance Ratio: 2.65%, Log Likelihood: -1524.0062, 
+2025-08-06 02:14:02,381 - INFO - Iteration 5000/10000, Acceptance Ratio: 2.60%, Log Likelihood: -1525.0340, 
+2025-08-06 02:14:02,466 - INFO - Iteration 6000/10000, Acceptance Ratio: 2.18%, Log Likelihood: -1525.3207, 
+2025-08-06 02:14:02,552 - INFO - Iteration 7000/10000, Acceptance Ratio: 1.87%, Log Likelihood: -1525.3207, 
+2025-08-06 02:14:02,638 - INFO - Iteration 8000/10000, Acceptance Ratio: 1.85%, Log Likelihood: -1523.4190, 
+2025-08-06 02:14:02,726 - INFO - Iteration 9000/10000, Acceptance Ratio: 1.87%, Log Likelihood: -1524.3704, 
+2025-08-06 02:14:02,813 - INFO - Iteration 10000/10000, Acceptance Ratio: 1.91%, Log Likelihood: -1526.3824, 
+2025-08-06 02:14:02,815 - INFO - Results saved to algo_results/hard_kmeans/results/j50_r0.75_Esn_kjOrdinalUniform_xnjNonNormal_m22_results.json
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/./run_mlhc.py", line 112, in <module>
+    run_ucl(
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/run.py", line 188, in run_ucl
+    mixture_models = mixture_model.fit_all_kde_models(X, y)
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/.conda_env/lib/python3.9/site-packages/kde_ebm/mixture_model/utils.py", line 81, in fit_all_kde_models
+    kde.fit(bio_X, bio_y,implement_fixed_controls=implement_fixed_controls, patholog_dirn=patholog_dirn,outlier_controls_quantile=outlier_controls_quantile)
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/.conda_env/lib/python3.9/site-packages/kde_ebm/mixture_model/kde.py", line 200, in fit
+    patholog_kde.fit(kde_values[kde_labels == 1])
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/.conda_env/lib/python3.9/site-packages/awkde/awkde.py", line 199, in fit
+    self._std_X, self._mean, self._cov = standardize_nd_sample(
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/.conda_env/lib/python3.9/site-packages/awkde/tools.py", line 89, in standardize_nd_sample
+    sqrtinvcov = _np.linalg.cholesky(_np.linalg.inv(cov)).T
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/.conda_env/lib/python3.9/site-packages/numpy/linalg/_linalg.py", line 608, in inv
+    ainv = _umath_linalg.inv(a, signature=signature)
+  File "/var/lib/condor/execute/slot1/dir_1752882/scratch/.conda_env/lib/python3.9/site-packages/numpy/linalg/_linalg.py", line 104, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
